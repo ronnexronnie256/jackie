@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Manifestation Day</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #fdfaf3;
+    --paper-line: #e4dcc8;
+    --ink: #2b2a3d;
+    --ink-soft: #4a4864;
+    --accent: #8b6f3f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #f3ede0;
+      --ink: #2b2a3d;
+      --ink-soft: #4a4864;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #d8cdb4;
+    font-family: 'EB Garamond', Georgia, serif;
+  }
+  body {
+    padding: env(safe-area-inset-top, 24px) 16px calc(env(safe-area-inset-bottom, 24px) + 24px);
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    width: 100%;
+    max-width: 720px;
+    background: var(--paper);
+    border: 1px solid var(--paper-line);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.18);
+    border-radius: 4px;
+    padding: 48px 40px 56px;
+    position: relative;
+    overflow: hidden;
+  }
+  .card::before {
+    content: "";
+    position: absolute;
+    inset: 14px;
+    border: 1px solid var(--paper-line);
+    pointer-events: none;
+  }
+  .date {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.4rem;
+    color: var(--accent);
+    text-align: right;
+    margin-bottom: 8px;
+  }
+  .title {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: clamp(2.2rem, 6vw, 3.2rem);
+    text-align: center;
+    color: var(--ink);
+    margin: 8px 0 36px;
+    line-height: 1.15;
+  }
+  .letter {
+    font-family: 'Dancing Script', cursive;
+    font-size: clamp(1.35rem, 2.6vw, 1.7rem);
+    line-height: 2.05;
+    color: var(--ink-soft);
+    letter-spacing: 0.2px;
+  }
+  .letter p {
+    margin: 0 0 22px;
+  }
+  .letter p:first-of-type {
+    margin-top: 0;
+  }
+  .signoff {
+    text-align: right;
+    margin-top: 36px;
+    font-family: 'Dancing Script', cursive;
+    font-size: clamp(1.5rem, 3vw, 1.9rem);
+    color: var(--ink);
+  }
+  .divider {
+    width: 60px;
+    height: 2px;
+    background: var(--paper-line);
+    margin: 30px auto;
+  }
+  @media (max-width: 480px) {
+    .card { padding: 32px 22px 40px; }
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="date">22nd Sept – 26</div>
+    <div class="title">Happy Manifestation Day</div>
+
+    <div class="letter">
+      <p>Hello Jackie,</p>
+
+      <p>I write to you with love and excitement as I celebrate this wonderful milestone in your life.</p>
+
+      <p>I firstly thank God for giving me such a loving friend who has always given me her shoulder to lean on, sacrificed her time for me, always shared the word of God with me, taught me and always pushed me to greater heights. Am greatly blessed to have you in my life.</p>
+
+      <p>Your a template of love towards men, a pattern of righteousness, full of wisdom, a chosen generation, a scribe of mysteries, an apostle to your generation.</p>
+
+      <p>Your a blessing to each and everyone, everything you touch is blessed, like Abraham, a friend of God.</p>
+
+      <div class="divider"></div>
+
+      <p>The mighty hand of God is upon you, the peace of God is around you, The Lord has built a hedge around you and everyone and thing around you. The Lord hears your voice and everything you say is acted upon immediately. The Lord is your salvation [Soteria], You are a blessing [berakah], the windows of heaven are open to you like the brightness of every morning. You are a great nation, your name is great.</p>
+
+      <p>I celebrate you, cherish you and thank you for saying "Yes" to the call of The Lord. Thank you for your service towards God!</p>
+
+      <p>The eyes of your understanding are enlightened.</p>
+
+      <p style="text-align:center; font-size: 1.15em; margin-top: 30px;">HAPPY MANIFESTATION DAY</p>
+    </div>
+
+    <div class="signoff">Yours, Agaba Ronald</div>
+  </div>
+</body>
+</html>
